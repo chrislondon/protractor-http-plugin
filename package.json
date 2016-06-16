@@ -1,0 +1,19 @@
+{
+    "name": "ng-test-http",
+    "version": "0.0.1",
+    "description": "Ability to test http in Protractor",
+    "main": "ng-test-http.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:chrislondon/ng-test-http.git"
+    },
+    "author": "Chris London <chris@atlast.io>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chrislondon/ng-test-http/issues"
+    },
+    "homepage": "https://github.com/chrislondon/ng-test-http"
+}
