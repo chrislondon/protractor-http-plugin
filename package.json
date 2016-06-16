@@ -1,19 +1,19 @@
 {
-    "name": "ng-test-http",
+    "name": "protractor-http-plugin",
     "version": "0.0.2",
-    "description": "Ability to test http in Protractor",
-    "main": "ng-test-http.js",
+    "description": "Protractor plugin that allows expecting http calls",
+    "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:chrislondon/ng-test-http.git"
+        "url": "git@github.com:chrislondon/protractor-http-plugin.git"
     },
     "author": "Chris London <chris@atlast.io>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/chrislondon/ng-test-http/issues"
+        "url": "https://github.com/chrislondon/protractor-http-plugin/issues"
     },
-    "homepage": "https://github.com/chrislondon/ng-test-http"
+    "homepage": "https://github.com/chrislondon/protractor-http-plugin"
 }
