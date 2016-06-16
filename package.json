@@ -1,6 +1,6 @@
 {
     "name": "ng-test-http",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Ability to test http in Protractor",
     "main": "ng-test-http.js",
     "scripts": {

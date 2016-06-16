@@ -9,6 +9,12 @@ var ngTestHttp = {
                 });
             // ngTestHttp.mockModules_.addMockModule
         });
+    },
+
+    addAsDependencyForModule: function(module) {
+        browser.addMockModule('ngTestHttp', function (module) {
+            angular.module(module).requires.push('ngTestHttp');
+        }, module);
     }
 };
 
