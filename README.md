@@ -40,22 +40,22 @@ describe('when testing', function() {
     });
     
     it('should expect http call to err (return 4XX or 5XX status code)', function() {
-        // NOT IMPLEMENTED
         expect(request('GET', 'http://example.com')).toErr();
     });
     
     it('should expect http call to succeed (return 2XX status code)', function() {
-        // NOT IMPLEMENTED
         expect(request('GET', 'http://example.com')).toSucceed();
     });
     
+    it('should expect http call to redirect (return 3XX status code)', function() {
+        expect(request('GET', 'http://example.com')).toRedirect();
+    });
+    
     it('should expect http call to respond with certain data', function() {
-        // NOT IMPLEMENTED
         expect(request('GET', 'http://example.com')).toRespondWith({ foo: 'bar' });
     });
     
     it('should expect http call to respond with specified status code', function() {
-        // NOT IMPLEMENTED
         expect(request('GET', 'http://example.com')).toRespondWithStatusCode(200);
     });
 
